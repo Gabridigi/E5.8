@@ -15,23 +15,23 @@ public class App {
             if (numero1 <= numero2 && numero2<=numero3){
                 System.out.println("La sequenza è crescente");
             }
-            else if (numero3<=numero2&&numero2<=numero1){
+            else if (numero3 <= numero2 && numero2 <= numero1){
                 System.out.println("La sequenza è decrescente");
             }
-            else if (numero1<numero2&&numero2>numero3 ||numero1>numero2&&numero2<numero3){
-                System.out.println("neither");}
+            else {
+                System.out.println("neither");
+            }
         }
         else if(decisione.equals("N")){
-            if (numero1 < numero2 && numero2<numero3){
-            System.out.println("La sequenza è crescente");
+            if (numero1 < numero2 && numero2 < numero3){
+                System.out.println("La sequenza è crescente");
+            }
+            else if (numero3 < numero2&&numero2 < numero1){
+                System.out.println("La sequenza è decrescente");
+            }
+            else {
+                System.out.println("neither");}
+            }
         }
-        else if (numero3<numero2&&numero2<numero1){
-            System.out.println("La sequenza è decrescente");
-        }
-        else if (numero1<=numero2&&numero2>=numero3 ||numero1>=numero2&&numero2<=numero3){
-            System.out.println("neither");}
-
-        
     }
 }
-    }
